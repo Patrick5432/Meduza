@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: black;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+header .home-links ul {
+    display: flex;
+}
+
+header .home-links li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #A37846;
+}
+
+header .links-laungage-and-search {
+    display: flex;
+    align-items: center;
+}
+
+header .links-laungage-and-search img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    padding-top: 30px;
+    color: black;
+}
+
+main .border-filter {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    height: 5vh;
+}
+
+main .border-filter p {
+    display: flex;
+    align-items: center;
+}
+
+main .border-filter .courses {
+    display: flex;
+}
+
+main .border-filter .dollar {
+    padding-right: 3px;
+    padding-left: 16px;
+}
+
+main .border-filter .euro {
+    padding-right: 3px;
+    padding-left: 16px;
+}
+
+main .border-filter .switch {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+main .border-filter .switch p {
+    color: #9CA1A9;
+    padding-right: 10px;
+}
+
+main .border-filter .switch input[type="checkbox"] {
+    position: relative;
+    width: 48px;
+    height: 24px;
+    -webkit-appearance: none;
+    outline: none;
+    background: #E6E6E6;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+main .border-filter .switch input:checked[type="checkbox"] {
+    background: #9c9c9c;
+}
+
+main .border-filter .switch input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    background: white;
+    transition: .5s;
+    transform: scale(1.1);
+    top: 2.5px;
+    left: 3px;
+}
+
+main .border-filter .switch input:checked[type="checkbox"]:before {
+    left: 27.5px;
+}
