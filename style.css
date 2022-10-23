@@ -31,6 +31,8 @@ body {
     overflow: hidden;
 }
 
+/*-----HEADER-----*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -66,6 +68,8 @@ header .links-laungage-and-search img {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/*-----SWITCH-BORDER-----*/
 
 main {
     padding-top: 30px;
@@ -142,19 +146,16 @@ main .border-filter .switch input:checked[type="checkbox"]:before {
     left: 27.5px;
 }
 
+/*-----MAIN-NEWS-----*/
+
 main ul {
-    display: flex;
-    justify-content: center;
     background: #F2F2F2;
     border-radius: 10px;
     margin-top: 15px;
-    width: 100%;
 }
 
-main ul .front-ground {
-    margin-top: 60px;
-    margin-right: 60px;
-    margin-left: 60px;
+main ul .main-news {
+    margin: 0 auto;
     max-width: 1200px;
     border-radius: 10px;
     background: white;
@@ -162,14 +163,84 @@ main ul .front-ground {
     text-align: center; 
  }
 
-main ul .front-ground h1 {
-   font-size: 50px;
-   margin-top: 45px;
+main ul .main-news h1 {
+    font-size: 50px;
+    margin-top: 45px;
 }
 
-main ul .front-ground p {
+main ul .main-news p {
     margin-top: 58px;
     margin-bottom: 29px;
     font-size: 15px;
     color: #9CA1A9;
+}
+
+main ul .additional-news {
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1200px;
+    border-radius: 10px;
+    background: white;
+    outline: 5px solid #A37846;
+}
+
+main ul .additional-news article ul {
+    display: flex;
+}
+
+main ul .additional-news article ul .big-border {
+    flex: 2;
+    font-size: 35px;
+    max-width: 570px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+main ul .additional-news article ul .big-border p {
+    margin-top: 194px;
+    margin-bottom: 30px;
+}
+
+main ul .additional-news article ul .small-border_1 {
+    flex: 1;
+    font-size: 14px;
+    max-width: 250px;
+    margin-right: 55px;
+}
+
+main ul .additional-news article ul .small-border_1 p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #9CA1A9;
+}
+
+main ul .additional-news article ul .small-border_1 .news_1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+main ul .additional-news article ul .small-border_1 .news_2 {
+    margin-top: 25px;
+}
+
+main ul .additional-news article ul .small-border_2 {
+    flex: 1;
+    font-size: 14px;
+    max-width: 250px;  
+    height: 115px;
+}
+
+main ul .additional-news article ul .small-border_2 p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #9CA1A9;
+}
+
+main ul .additional-news article ul .small-border_2 .news_3 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+main ul .additional-news article ul .small-border_2 .news_4 {
+    margin-top: 25px;
 }
