@@ -141,3 +141,35 @@ main .border-filter .switch input[type="checkbox"]:before {
 main .border-filter .switch input:checked[type="checkbox"]:before {
     left: 27.5px;
 }
+
+main ul {
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+main ul .front-ground {
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    max-width: 1200px;
+    border-radius: 10px;
+    background: white;
+    outline: 5px solid #A37846;
+    text-align: center; 
+ }
+
+main ul .front-ground h1 {
+   font-size: 50px;
+   margin-top: 45px;
+}
+
+main ul .front-ground p {
+    margin-top: 58px;
+    margin-bottom: 29px;
+    font-size: 15px;
+    color: #9CA1A9;
+}
