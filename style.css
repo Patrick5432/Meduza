@@ -386,3 +386,34 @@ footer .under-block-links .gratitude-giphy {
     margin-top: 37px;
     margin-bottom: 39px;
 }
+
+/*-----@MEDIA-SCREEN-----*/
+
+@media screen and (max-width: 1440px) {
+    main .news .main-news {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    main .news {
+        margin-bottom: 15px;
+    }
+
+    main .news .main-news {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    main .news .main-news .additional-news_1 ul {
+    }
+
+    main .news .additional-news_2 {
+        margin-bottom: 44px;
+    }
+
+    footer {
+        display: none;
+    }
+}
