@@ -64,11 +64,10 @@ header .links-laungage-and-search {
     align-items: center;
 }
 
-header .links-laungage-and-search img {
+header .links-laungage-and-search .line {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 /*-----SWITCH-BORDER-----*/
 
 main {
@@ -337,7 +336,6 @@ main .news .additional-news_2 ul .small-border_4 .news_8 {
 /*-----FOOTER-----*/
 
 footer {
-    display: flex;
     color: white;
 }
 
@@ -349,18 +347,42 @@ footer a:hover {
     text-decoration: underline;
 }
 
-footer .other-links {
+/*-----BLOCKS-LINKS-----*/
+
+footer .block-links {
+    display: flex;
+}
+
+footer .block-links .other-links {
     margin: 0 auto;
     font-size: 15px;
     margin-top: 16px;
 }
 
-footer .other-links h1 {
+footer .block-links .other-links h1 {
     font-size: 15px;
     margin-bottom: 24px;
     margin-top: 34px;
 }
 
-footer .other-links p {
+footer .block-links .other-links p {
     margin-top: 5px;
+}
+
+/*-----UNDER-BLOCKS-LINKS-----*/
+
+footer .under-block-links .outline {
+    display: flex;
+    justify-content: center;
+    outline: 1px solid white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+footer .under-block-links .gratitude-giphy {
+    font-size: 15px;
+    margin-left: 235px;
+    margin-top: 37px;
+    margin-bottom: 39px;
 }
