@@ -409,7 +409,7 @@ footer .under-block-links .gratitude-giphy {
         margin-bottom: 44px;
     }
 
-    footer {
+    footer .under-block-links {
         display: none;
     }
 }
@@ -431,6 +431,17 @@ footer .under-block-links .gratitude-giphy {
 
     main .news .additional-news_2 ul .small-border_4 {
         display: none;
+    }
+
+    
+    footer .block-links {
+        margin-bottom: 30px;
+    }
+
+    footer .block-links .other-links {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 13px;
     }
 }
 
