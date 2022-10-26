@@ -409,6 +409,14 @@ footer .under-block-links .gratitude-giphy {
         margin-bottom: 44px;
     }
 
+    footer .block-links {
+        margin-bottom: 30px;
+    }
+
+    footer .block-links .other-links .apps {
+        display: none;
+    }
+
     footer .under-block-links {
         display: none;
     }
@@ -433,15 +441,24 @@ footer .under-block-links .gratitude-giphy {
         display: none;
     }
 
-    
-    footer .block-links {
-        margin-bottom: 30px;
-    }
-
     footer .block-links .other-links {
         margin-right: 10px;
         margin-left: 10px;
         font-size: 13px;
+    }
+
+    footer .block-links .other-links .advertising {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    footer .block-links .other-links .projects {
+        display: none;
+    }
+
+    footer .block-links .other-links .editorial {
+        display: none;
     }
 }
 
