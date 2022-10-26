@@ -466,6 +466,10 @@ footer .under-block-links .gratitude-giphy {
     main .news .main-news h1 {
         font-size: 26px;
     }
+
+    footer .block-links .other-links .socaial-media {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 524px) {
@@ -549,6 +553,10 @@ footer .under-block-links .gratitude-giphy {
         margin-top: 30px;
         font-size: 20px;
     } 
+
+    footer .block-links .other-links .personal-data {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px) {
